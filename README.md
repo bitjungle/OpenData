@@ -11,7 +11,8 @@ each individual dataset for detailed information.
     bronir2-all.TXT
     bronir2-all.mat (Matlab file)
     bronir2-all.unsb (Unscrambler X file)
-    A big dataset containing 880 NIR spectra and corresponding response data.
+    A big dataset containing 880 NIR spectra from high density polyethylene, 
+    with corresponding response data (density and MFR).
 
 ---
 
