@@ -9,6 +9,8 @@ Here is a brief description of the data found in this repository. See the README
 each individual dataset for detailed information.
 
     bronir2-all.TXT
+    bronir2-all.mat (Matlab file)
+    bronir2-all.unsb (Unscrambler X file)
     A big dataset containing 880 NIR spectra and corresponding response data.
 
 ---
