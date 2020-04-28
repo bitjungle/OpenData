@@ -25,3 +25,12 @@ each individual dataset for detailed information.
     fourier transformed to the frequency domain.
     Perturbations to the measurement system has been made between the measurement series, 
     in order to induce measurement errors.
+
+---
+
+    met_no_Sandefjord_Torp_SN27470.csv
+    met_no_Sandefjord_Torp_SN27470.py
+    Data from met.no - measurement station Sandefjord Torp SN27470
+    First data point is 01.04.2019
+    Last data point is 31.03.2020
+    24 hours between each data point (daily average)
