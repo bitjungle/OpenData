@@ -10,9 +10,6 @@ each individual dataset for detailed information.
 
 [bronir2](bronir2/)
 
-    bronir2-all.TXT
-    bronir2-all.mat (Matlab file)
-    bronir2-all.unsb (Unscrambler X file)
     A big dataset containing 880 NIR spectra from high density polyethylene, 
     with corresponding response data (density and MFR).
 
@@ -20,17 +17,14 @@ each individual dataset for detailed information.
 
 [SOAP](SOAP/)
 
-    SOAP-ascii.txt
-    SOAP-matlab.mat (Matlab file)
-    SOAP-unsx.unsb (Unscrambler X file)
     Two measurement series with trace amounts of soap in water, 
     transported through a pipe.
     The measurement data is the signal from an accelerometer, 
     fourier transformed to the frequency domain.
-    Perturbations to the measurement system has been made between the measurement series, 
-    in order to induce measurement errors.
 
 ---
 
 [Skien_weather_met.no](Skien_weather_met.no/)
 
+    Air temperature, dew point temperature and wind speed from 
+    the weather stations SN30305 and SN30330 in Skien, Norway. 
