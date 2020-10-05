@@ -8,6 +8,8 @@ Datasets
 Here is a brief description of the data found in this repository. See the README files for 
 each individual dataset for detailed information.
 
+[bronir2](bronir2/)
+
     bronir2-all.TXT
     bronir2-all.mat (Matlab file)
     bronir2-all.unsb (Unscrambler X file)
@@ -15,6 +17,8 @@ each individual dataset for detailed information.
     with corresponding response data (density and MFR).
 
 ---
+
+[SOAP](SOAP/)
 
     SOAP-ascii.txt
     SOAP-matlab.mat (Matlab file)
@@ -25,3 +29,7 @@ each individual dataset for detailed information.
     fourier transformed to the frequency domain.
     Perturbations to the measurement system has been made between the measurement series, 
     in order to induce measurement errors.
+
+---
+
+[Skien_weather_met.no](Skien_weather_met.no/)
