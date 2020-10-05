@@ -12,4 +12,4 @@ For more information and an analysis of this dataset, see my M.Sc. (eng) thesis:
     On-line NIR analysis in a high density polyethene plant, 
     evaluation of sampling system and optimal calibration strategy 
     (Rune Mathisen, 1999)
-    http://www.bitjungle.no/wp/m-sc-eng-thesis/
+    http://www.bitjungle.no/posts/m.sc-eng-thesis.html
