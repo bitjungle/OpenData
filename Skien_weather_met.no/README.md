@@ -8,5 +8,3 @@ script. Examples on how to read and manipulate the data is shown in
 
 All data is licensed [Creative Commons BY 3.0](https://creativecommons.org/licenses/by/3.0/no/), 
 [met.no](https://met.no).
-
-Python files ar &copy; 
