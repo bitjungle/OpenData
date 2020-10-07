@@ -10,13 +10,13 @@ import matplotlib.pyplot as plt
 import glob
 
 path = r'data' # path to data files
-datafiles = glob.glob(path + "/*.csv")
+datafiles = glob.glob(path + "/*.csv") # only read csv files
 
 df_list = []
 for filename in datafiles:
-    df_list.append(pd.read_csv(filename))
+    df_list.append(pd.read_csv(filename)) # reading files one by one
 
-df = pd.concat(df_list)
+df = pd.concat(df_list) # concatenate all dataframe objects
 
 #print(df.head(5))
 
@@ -28,6 +28,7 @@ aarhus = df[df['sourceId'] == 'SN30330:0']
 # https://stackoverflow.com/questions/31785371/valueerror-index-contains-duplicate-entries-cannot-reshape
 kikut = kikut.drop_duplicates(['elementId','referenceTime'])
 aarhus = aarhus.drop_duplicates(['elementId','referenceTime'])
+
 # Reshape the dataframe
 # https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot.html
 kikut_unfold = kikut.pivot(index='referenceTime', columns='elementId', values='value')
@@ -38,10 +39,13 @@ aarhus_unfold.index = pd.DatetimeIndex(aarhus_unfold.index)
 print(kikut_unfold)
 print(aarhus_unfold)
 
+#diff = kikut_unfold['air_temperature'] - aarhus_unfold['air_temperature']
+#plt.plot(diff, marker='o')
 #kikut_unfold['air_temperature'].plot()
 #aarhus_unfold['air_temperature'].plot()
-#kikut_unfold['wind_from_direction'].plot()
 #aarhus_unfold.plot.scatter(x='air_temperature', y='wind_speed')
-#kikut_unfold.plot.scatter(x='air_temperature', y='wind_speed')
+kikut_unfold.plot.scatter(x='air_temperature', y='wind_speed')
+#kikut_unfold.plot.scatter(x='air_temperature', y='dew_point_temperature')
 #kikut_unfold.plot.scatter(x='air_temperature', y='dew_point_temperature', c='wind_speed', colormap='viridis')
+plt.grid()
 plt.show()
