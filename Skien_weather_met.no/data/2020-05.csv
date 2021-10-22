@@ -13332,7 +13332,7 @@
 13330,1,dew_point_temperature,1.3,degC,,PT0H,PT1H,0,C,2,,2020-05-01 05:00:00,SN30330:0
 13331,2,wind_speed,0.6,m/s,"{'levelType': 'height_above_ground', 'unit': 'm', 'value': 2}",PT0H,PT1H,0,C,2,0.0,2020-05-01 05:00:00,SN30330:0
 13332,0,air_temperature,2.9,degC,"{'levelType': 'height_above_ground', 'unit': 'm', 'value': 2}",PT0H,PT1H,0,E,1,0.0,2020-05-01 06:00:00,SN30330:0
-13333,1,dew_point_temperature,1.9,degC,,PT0H,PT1H,0,C,2,,2020-05-01 06:00:00,SN30330:0
+13333,1,dew_point_temperature,1.7,degC,,PT0H,PT1H,0,C,2,,2020-05-01 06:00:00,SN30330:0
 13334,2,wind_speed,0.5,m/s,"{'levelType': 'height_above_ground', 'unit': 'm', 'value': 2}",PT0H,PT1H,0,C,2,0.0,2020-05-01 06:00:00,SN30330:0
 13335,0,air_temperature,3.7,degC,"{'levelType': 'height_above_ground', 'unit': 'm', 'value': 2}",PT0H,PT1H,0,E,1,0.0,2020-05-01 07:00:00,SN30330:0
 13336,1,dew_point_temperature,2.1,degC,,PT0H,PT1H,0,C,2,,2020-05-01 07:00:00,SN30330:0
