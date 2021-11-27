@@ -7,9 +7,9 @@ reference measurements.
 Due to the way the NIR data was collected, there are many interesting artifacts and quite a bit of 
 noise in the data (very noisy between 2400-2500 nm).
 
-For more information and an analysis of this dataset, see my M.Sc. (eng) thesis:
+For more information and an analysis of this dataset, see my [M.Sc. (eng) thesis](rune-mathisen-msc-eng-thesis.pdf):
 
     On-line NIR analysis in a high density polyethene plant, 
     evaluation of sampling system and optimal calibration strategy 
     (Rune Mathisen, 1999)
-    http://www.bitjungle.no/posts/m.sc-eng-thesis.html
+
